@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - starting function
+ *main - staring function
  *
- * Description: Prints hexademical numbers
+ *Description: printing hexadecimal numbers.
  *
- * Return: 0
+ *Return: 0
  */
 int main(void)
 {
@@ -12,6 +12,9 @@ int main(void)
 	char let;
 
 	for (f = '0'; f <= '9'; f++)
+	putchar(f);
+
+	for (let = 'a'; let <= 'f'; let++)
 	putchar(let);
 	putchar('\n');
 	return (0);
